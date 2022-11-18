@@ -12,6 +12,7 @@ defmodule Q.MixProject do
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
+      description: "A wrapper around Qex with queue count and telemetry events",
       package: package()
     ]
   end
