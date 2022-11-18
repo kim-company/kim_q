@@ -6,7 +6,7 @@ A wrapper around Qex with queue count and telemetry events.
 ```elixir
 def deps do
   [
-    {:kim_q, github: "kim-company/kim_q"}
+    {:kim_q, "~> 1.0.0"}
   ]
 end
 ```
