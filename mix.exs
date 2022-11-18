@@ -28,7 +28,8 @@ defmodule Q.MixProject do
     [
       {:qex, "~> 0.5"},
       {:telemetry, "~> 1.1"},
-      {:vega_lite, "~> 0.1.6", optional: true}
+      {:vega_lite, "~> 0.1.6", optional: true},
+      {:probe, github: "kim-company/kim_probe", optional: true}
     ]
   end
 
